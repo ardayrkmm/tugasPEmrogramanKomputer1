@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            color: rgba(255, 255, 255, 0.637);
+        }
+        a:hover{
+            color: white;
+            cursor: pointer;
+        }
+
+        .navbar{
+            background-color: #186F65;
+            padding: 20px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+    left: 0;
+    width: 100%;
+    display: flex; justify-content: space-between; align-items: center;
+        }
+       
+       
+   
+
+    
+
+    </style>
+</head>
+<body style="margin: 0; padding: 0; font-family: sans-serif;">
+    <div>
+        <nav id="navbar" class="navbar" >
+            <h1 style="color: white;">Pasir <span style="color: wheat; width: 80px; height: 50px; border-radius: 100px; background-color: #308177;">Cibug</span></h1>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; margin-right: 20px;">
+                <li style="margin-right: 20px;"><a style="text-decoration: none;  font-weight: bold; font-size: 20px;">Home</a></li>
+                <li style="margin-right: 20px;"><a href="#tentang" style="text-decoration: none;  font-weight: bold; font-size: 20px;">Tentang</a></li>
+                <li style="margin-right: 20px;"><a href="#tiket" style="text-decoration: none;  font-weight: bold; font-size: 20px;">Tiket</a></li>
+                <li style="margin-right: 20px;"><a href="#lokasi" style="text-decoration: none;  font-weight: bold; font-size: 20px;">Lokasi</a></li>
+                
+                <!-- <li  style="margin-right: 20px;">Tentang</li>
+                <li style="margin-right: 20px;">Tiket</li>
+                <li style="margin-right: 20px;">Lokasi</li>
+                <li style="margin-right: 20px;">Kontak</li> -->
+            </ul>
+        </nav>
+        <div class="navbar-cover"></div>
+    </div>
+   
+
+    <header >
+        <div style="margin-bottom: 20px;">
+            <img src="assets/header.jpg" width="100%" height="600px"/>
+            <h1 style="font-size: 30px; font-weight: bold; width: 300px; height: 30px; background-color: #308177; border-radius: 10px; padding: 10px; color: white; position: absolute; top: 55%; left: 100px;">Pasir Cibug</h1>
+            <p style="font-size: 26px;  color: white; width: 500px; padding: 10px; border-radius: 10px; background-color: #308177;  position: absolute; top: 65%; left: 100px;">Capek kerja? Pikiran pusing? <br>Ayo datang ke Pasir Cibug</br></p>
+        </div>
+        
+    </header>
+
+    <section id="tentang" style="margin:auto;  width: 600px; background-color: #308177; padding: 18px; border-radius: 20px; ">
+        <h1 style="color: white; font-size: 28px;">Tentang</h1>
+        <p style="color: white;">Pasir Gibug adalah wisata baru Brebes yang menyajikan konsep wisata alam kekinian, dan dilengkapi dengan beragam fasilitas wisata yang akan membuat nyaman para wisatawan.
+
+            Pasir Gibug populer juga dengan nama Pasir Gibug Penanggapan, atau Pasir Gibug Banjarharjo Brebes. Nama lain tersebut merujuk kepada alamat atau lokasi Pasir Gibug berada.</p>
+    </section>
+ 
+    <section id="tiket" style="display: flex; justify-content: space-evenly; padding: 10px;margin-top: 20px; margin-bottom: 20px; background-color: #186F65;">
+     <div style="width: 150px; padding: 15px; background-color: #308177; border-radius: 10px;">
+      <h1 style="color: white; font-size: 20px;">Tiket Masuk</h1>
+      <h2 style="color: white; font-size: 14px;">Rp.10.000 / 1 orang</h2>
+  
+     </div>
+     <div style="width: 150px; padding: 15px; background-color: #308177;  border-radius: 10px;">
+        <h1 style="color: white; font-size: 20px;">Tiket Waterpark</h1>
+        <h2 style="color: white; font-size: 14px;">Rp.15.000 / 1 orang</h2>
+    
+       </div>
+       <div style="width: 150px; padding: 15px; background-color: #308177; border-radius: 10px;">
+        <h1 style="color: white; font-size: 20px;">Tiket Parkir Motor</h1>
+        <h2 style="color: white; font-size: 14px;">Rp.2.000 / 1 motor</h>
+    
+       </div>
+       <div style="width: 150px; padding: 15px; background-color: #308177; border-radius: 10px;">
+        <h1 style="color: white; font-size: 20px;">Tiket Parkir mobil</h1>
+        <h2 style="color: white; font-size: 14px;">Rp.5.000 / 1 mobil</h2>
+    
+       </div>
+    </section>
+
+    <section id="lokasi" style="display: flex; margin: auto; justify-content: center; align-items: center; margin-bottom: 30px;">
+        <div style="width: 400px; border-radius: 10px;margin-right: 30px; background-color: #308177; padding: 10px; height: 150px;">
+            <h1 style="color: white; font-size: 20px; ">Alamat Pasir Gibug berada di Desa Penanggapan, Kecamatan Banjarharjo, Kabupaten Brebes, Provinsi Jawa Tengah. bisa dilihat map di sebalah kanan</h1>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.49079145021!2d108.78370577484719!3d-7.06895251928253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f7593d875aaf5%3A0x81efc66fedf2fc94!2sWisata%20Pasir%20Gibug!5e0!3m2!1sid!2sid!4v1696121926148!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer style="display: flex; justify-content: center; background-color: #186F65; ">
+        <h1 style="font-size: 16px; color: white;">Di buat oleh Arda yudrik malana : 22090121</h1>
+    </footer>
+</body>
+</html>
